@@ -198,6 +198,8 @@ help_string = f'''
 /{BotCommands.ShellCommand}: Run commands in Shell (Only Owner)
 
 /{BotCommands.ExecHelpCommand}: Get help for Executor module (Only Owner)
+
+/{BotCommands.TsHelpCommand}: Get help for Torrent search module
 '''
 
 def bot_help(update, context):
@@ -238,6 +240,7 @@ botcmds = [
         (f'{BotCommands.RestartCommand}','Restart the bot'),
         (f'{BotCommands.LogCommand}','Get the bot Log'),
         (f'{BotCommands.HelpCommand}','Get detailed help')
+        (f'{BotCommands.TsHelpCommand}','Get help for Torrent search module')
     ]
 
 def main():
