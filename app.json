@@ -9,6 +9,10 @@
       "description": "2109726042:AAGrj9VBiBFrbAjEot8zzVBBfQythlImXi4",
       "required": true
     },
+      "STRING_SESSION": {
+      "description": "GramJS string session. You can generate one at https://ssg.roj.im.",
+      "required": false
+    },
     "API_ID": {
       "description": "2050328",
       "required": true
@@ -21,5 +25,26 @@
       "description": "Max YouTube playlist size. Default: 10.",
       "required": false
     },
+     "LOCALE": {
+      "description": "An available bot language. Default: en.",
+      "required": false
+    },
+    "MAX_PLAYLIST_SIZE": {
+      "description": "Max YouTube playlist size. Default: 10.",
+      "required": false
+    },
+    "COOKIES": {
+      "description": "Cookies for YouTube requests. Default: none.",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
 © 2022 GitHub, Inc.
