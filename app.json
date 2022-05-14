@@ -1,46 +1,25 @@
 {
-  "name": "Calls Music Remix",
-  "logo": "https://i.ibb.co/BzB2GsS/Git-Lab-2.png",
-  "description": "An operational and exprimental Telegram music bot.",
-  "keywords": ["telegram", "music", "gram-tgcalls", "tgcallsjs", "gramjs"],
-  "repository": "https://github.com/callsmusic/remix",
+  "name": "No Mirror ot",
+  "logo": "",
+  "description": "An operational and exprimental Telegram mirroring bot.",
+  "keywords": ["telegram"],
+  "repository": "https://github.com/atulatul920/No-Mirror-Publik",
   "env": {
     "BOT_TOKEN": {
-      "description": "Bot token from @BotFather.",
-      "required": true
-    },
-    "STRING_SESSION": {
-      "description": "GramJS string session. You can generate one at https://ssg.roj.im.",
+      "description": "2109726042:AAGrj9VBiBFrbAjEot8zzVBBfQythlImXi4",
       "required": true
     },
     "API_ID": {
-      "description": "App ID from https://my.telegram.org/apps.",
+      "description": "2050328",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from https://my.telegram.org/apps.",
+      "description": "a8a012a3de526126a25f2b626a401008",
       "required": true
-    },
-    "LOCALE": {
-      "description": "An available bot language. Default: en.",
-      "required": false
     },
     "MAX_PLAYLIST_SIZE": {
       "description": "Max YouTube playlist size. Default: 10.",
       "required": false
     },
-    "COOKIES": {
-      "description": "Cookies for YouTube requests. Default: none.",
-      "required": false
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
 }
 © 2022 GitHub, Inc.
